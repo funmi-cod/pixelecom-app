@@ -1,15 +1,20 @@
 import 'package:flutter/material.dart';
+import 'package:flutter_bloc/flutter_bloc.dart';
 import 'package:flutter_screenutil/flutter_screenutil.dart';
 import 'package:pixelecomapp/src/core/router/app_route.dart';
 import 'package:pixelecomapp/src/core/utils/constant/app_colors.dart';
 import 'package:pixelecomapp/src/features/app_intro/splash_screen.dart';
+import 'package:pixelecomapp/src/features/auth/bloc/auth_bloc/auth_cubit.dart';
 
 final GlobalKey<NavigatorState> navigatorKey = GlobalKey<NavigatorState>();
 
 void main() {
   WidgetsFlutterBinding.ensureInitialized();
 
-  runApp(const MyApp());
+  MultiBlocProvider(
+    providers: [BlocProvider(create: (_) => AuthCubit())],
+    child: const MyApp(),
+  );
 }
 
 class MyApp extends StatelessWidget {

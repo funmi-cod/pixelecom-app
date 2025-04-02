@@ -1,0 +1,70 @@
+{
+    "products": [
+      {
+        "id": 1,
+        "name": "BeeeBank",
+        "description": "2022#1324",
+       
+        "productSold": 112,
+        "totalProduct": 112,
+        "country": "UK",
+    "type": "Red",
+    "ageStatement": "Five",
+    "Bottled": "New",
+    "caskNumber": "P1324",
+    "abv": "Premium",
+    "size": "450ml",
+    "finish": true
+      },
+      {
+        "id": 2,
+        "name": "SpringBank",
+        "description": "1892#1245",
+       
+        "productSold": 112,
+        "totalProduct": 158,
+        "country": "UK",
+    "type": "Red",
+    "ageStatement": "One",
+    "Bottled": "New",
+    "caskNumber": "P1245",
+    "abv": "Premium",
+    "size": "450ml",
+    "finish": false
+      },
+      {
+        "id": 3,
+        "name": "ShellBank",
+        "description": "1892#8907",
+       
+        "productSold":78,
+        "totalProduct": 138,
+        "country": "UK",
+    "type": "Red",
+    "ageStatement": "Premium",
+    "Bottled": "New",
+    "caskNumber": "P8907",
+    "abv": "Premium",
+    "size": "450ml",
+    "finish": false
+      },
+      {
+        "id": 4,
+        "name": "JolBank",
+        "description": "2021#2345",
+       
+        "productSold": 12,
+        "totalProduct": 70,
+        "country": "UK",
+    "type": "White",
+    "ageStatement": "Four",
+    "Bottled": "New",
+    "caskNumber": "P2345",
+    "abv": "Classic",
+    "size": "250ml",
+    "finish": false
+      }
+
+    ]
+  }
+  

@@ -48,7 +48,12 @@ class WelcomeScreen extends StatelessWidget {
                           Styles.regular("Have an account?", fontSize: 16.sp),
                           SizedBox(width: 25.w),
                           InkWell(
-                            onTap: () {},
+                            onTap: () {
+                              Navigator.pushNamed(
+                                context,
+                                RouteLiterals.loginScreen,
+                              );
+                            },
                             child: Styles.medium(
                               "Sign in first",
                               fontSize: 16.sp,
